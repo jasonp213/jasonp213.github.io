@@ -1,46 +1,10 @@
-<!doctype html><html>
-<head>
-<meta name=generator content="Hugo 0.93.3">
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge"><title>Coding前來一杯咖啡 - Software engineer. </title><meta name=viewport content="width=device-width,initial-scale=1">
-<link rel=alternate type=application/rss+xml href=https://jasonp213.github.io/index.xml title=Coding前來一杯咖啡>
-<meta property="og:title" content="Coding前來一杯咖啡">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://jasonp213.github.io/">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Coding前來一杯咖啡">
-<meta name=twitter:description content>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel=stylesheet>
-<link rel=stylesheet type=text/css media=screen href=https://jasonp213.github.io/css/normalize.css>
-<link rel=stylesheet type=text/css media=screen href=https://jasonp213.github.io/css/main.css>
-<script src=https://jasonp213.github.io/js/feather.min.js></script>
-<script src=https://jasonp213.github.io/js/main.js></script>
-</head><body>
-<div class="container wrapper">
-<div class=header>
-<base href=https://jasonp213.github.io/>
-<h1 class=site-title><a href=https://jasonp213.github.io/>Coding前來一杯咖啡</a></h1><div class=site-description><h2>Software engineer.</h2><nav class="nav social">
-<ul class=flat><a href=https://github.com/jasonp213 title=Github><i data-feather=github></i></a><a href=https://twitter.com/jasonp404 title=Twitter><i data-feather=twitter></i></a><a href=https://www.youtube.com/channel/UCyMexcPF3mlMy52-aY9P-bw title=Youtube><i data-feather=youtube></i></a></ul></nav></div><nav class=nav>
-<ul class=flat>
-<li>
-<a href=/>Home</a>
-</li><li>
-<a href=/posts>All posts</a>
-</li><li>
-<a href=/about>About</a>
-</li><li>
-<a href=/tags>Tags</a>
-</li></ul></nav></div><div class="recent-posts section">
-<h2 class=section-header>
-Recent posts
-</h2><div class=posts>
-<div class=post>
-<div class=meta>Mar 7, 2022</div><a class=title href=/posts/2022-03-10/hugo-markdown-gh-pages/>使用Hugo撰寫Markdown文件自動部署至Github Pages</a> &mdash;
-<span class=description>
-description
-</span>
-</div></div></div></div><div class="footer wrapper">
-<nav class=nav>
-<div> © Copyright notice | <a href=https://github.com/vividvilla/ezhil>Ezhil theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></nav></div><script>feather.replace()</script>
-</body></html>
+<!doctype html><html><head><meta name=generator content="Hugo 0.94.0"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><title>Coding前來一杯咖啡 - Software engineer.</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel=alternate type=application/rss+xml href=https://jasonp213.github.io/index.xml title=Coding前來一杯咖啡><meta property="og:title" content="Coding前來一杯咖啡"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://jasonp213.github.io/"><meta name=twitter:card content="summary"><meta name=twitter:title content="Coding前來一杯咖啡"><meta name=twitter:description content><link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://jasonp213.github.io/css/normalize.css><link rel=stylesheet type=text/css media=screen href=https://jasonp213.github.io/css/main.css><script src=https://jasonp213.github.io/js/feather.min.js></script>
+<script src=https://jasonp213.github.io/js/main.js></script></head><body><div class="container wrapper"><div class=header><base href=https://jasonp213.github.io/><h1 class=site-title><a href=https://jasonp213.github.io/>Coding前來一杯咖啡</a></h1><div class=site-description><h2>Software engineer.</h2><nav class="nav social"><ul class=flat><a href=https://github.com/jasonp213 title=Github><i data-feather=github></i></a><a href=https://twitter.com/jasonp404 title=Twitter><i data-feather=twitter></i></a><a href=https://www.youtube.com/channel/UCyMexcPF3mlMy52-aY9P-bw title=Youtube><i data-feather=youtube></i></a></ul></nav></div><nav class=nav><ul class=flat><li><a href=/>Home</a></li><li><a href=/posts>All posts</a></li><li><a href=/about>About</a></li><li><a href=/toolbox>ToolBox</a></li><li><a href=/tags>Tags</a></li></ul></nav></div><div class="recent-posts section"><h2 class=section-header>Recent posts</h2><div class=posts><div class=post><div class=meta>Mar 11, 2022</div><a class=title href=/posts/2022-03-11/airkafe/>好好的，喝杯咖啡</a> &mdash;
+<span class=description>source: 鐵門咖啡 AIR KAFE
+&mldr;</span></div><div class=post><div class=meta>Mar 11, 2022</div><a class=title href=/posts/2022-03-11/ssh_tunnel/>ssh tunnel</a> &mdash;
+<span class=description>先備知識：知道ssh是什麼
+使用情境： 遠端有一台沒有提供外網的服務A(資料庫)，且設有Bastion server，如何在本機連上服務A。
+解法：
+ssh -L 1235:target_a_host:4567 bastion_server_host 這樣一來，就可以從localhost:1235連到遠端服務。
+可以使用-fN在背景執行 ssh -fN -L [bind_address:]&lt;local_port>:&lt;target_host>:&lt;target_port> remotehost Reference ssh tunnel &mldr;</span></div><div class=post><div class=meta>Mar 7, 2022</div><a class=title href=/posts/2022-03-10/hugo-markdown-gh-pages/>使用Hugo撰寫Markdown文件自動部署至Github Pages</a> &mdash;
+<span class=description>description</span></div></div></div></div><div class="footer wrapper"><nav class=nav><div>© Copyright notice | <a href=https://github.com/vividvilla/ezhil>Ezhil theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></nav></div><script>feather.replace()</script></body></html>
