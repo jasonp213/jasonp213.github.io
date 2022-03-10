@@ -71,6 +71,11 @@ url = "/about"
 weight = 3
 
 [[menu.main]]
+name = "ToolBox"
+url = "/toolbox"
+weight = 3
+
+[[menu.main]]
 name = "Tags"
 url = "/tags"
 weight = 4
