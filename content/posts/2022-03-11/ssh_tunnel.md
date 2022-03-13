@@ -1,6 +1,9 @@
 ---
 title: "ssh tunnel"
 date: 2022-03-11T00:52:17+08:00
+draft: false
+description: "遠端有一台沒有提供外網的服務A(資料庫)，且設有Bastion server，如何在本機連上服務A。"
+tags: [ssh,]
 ---
 
 先備知識：知道ssh是什麼

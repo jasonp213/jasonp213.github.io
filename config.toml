@@ -2,7 +2,7 @@ baseURL = 'https://jasonp213.github.io/'
 languageCode = 'zh-TW'
 title = 'Coding前來一杯咖啡'
 
-theme = 'ezhil'
+theme = 'ananke'
 
 copyright = "© Copyright notice"
 
