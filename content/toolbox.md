@@ -12,7 +12,7 @@ date: 2022-03-11T00:55:52+08:00
 ## Oh-my-Zsh
 
 ## VSCode(Visual Studio Code)
-  
+
 Extensions:
 
 - GitLens
